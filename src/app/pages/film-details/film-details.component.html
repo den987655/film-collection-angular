@@ -1,8 +1,18 @@
 @if (film) {
-  <h1>{{ film.title }}</h1>
-  <p>{{ film.year }}</p>
-  <p>{{ film.genre }}</p>
-  <p>{{ film.rating }}</p>
-  <p>{{ film.duration | duration }}</p>
-  <p>{{ film.description }}</p>
+  <article class="details">
+    <img [src]="film.posterUrl" [alt]="film.title">
+
+    <div>
+      <h1>{{ film.title }}</h1>
+      <p>{{ film.year }} • {{ film.genre }}</p>
+      <p>⭐ {{ film.rating }}</p>
+      <p>{{ film.duration | duration }}</p>
+
+      <p>{{ film.description }}</p>
+    </div>
+  <button type="button" (click)="goBack()">Back</button>
+  </article>
+
+} @else {
+  <p>Film not found.</p>
 }

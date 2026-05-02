@@ -1,11 +1,15 @@
-<p>breadcrumbs works!</p>
-
-@if (url() === '/') {
-  <span>Home</span>
-}
-@if (url().startsWith('/film')) {
-  <a routerLink="/">Home</a> > <span>Film</span>
-}
-@if (url() === 'about') {
-  <span>About</span>
-}
+<nav aria-label="Breadcrumbs">
+  @if (url === '/') {
+    <span>Home</span>
+  }
+  @if (url === '/about') {
+    <a routerLink="/">Home</a>
+    <span>/</span>
+    <span>About</span>
+  }
+  @if (url.startsWith('/film/')) {
+    <a routerLink="/">Home</a>
+    <span>/</span>
+    <span>{{ currentFilmTitle }}</span>
+  }
+</nav>

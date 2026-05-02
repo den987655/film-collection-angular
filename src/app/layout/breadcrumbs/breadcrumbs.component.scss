@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px clamp(20px, 5vw, 64px) 0;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+a {
+  color: #d6d6d6;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+span:last-child {
+  color: #ffffff;
+}

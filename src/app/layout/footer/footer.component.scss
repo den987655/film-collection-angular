@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 34px 20px;
+  background: #050505;
+  color: #8c8c8c;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+}
+
+a {
+  color: #d6d6d6;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #e50914;
+}

@@ -20,7 +20,7 @@ export const films: Film[] =[
     duration: 169,
     description:
       'When drought, dust storms, and the extinction of crops lead humanity to a food crisis, a team of explorers and scientists travels through a wormhole in search of a new home for mankind.',
-    posterUrl: 'https://placehold.co/300x450?text=Interstellar',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg',
     isFavorite: false,
   },
   {
@@ -32,7 +32,7 @@ export const films: Film[] =[
     duration: 148,
     description:
       'Cobb is a skilled thief, the best of the best in the dangerous art of extraction: he steals valuable secrets from deep within the subconscious during sleep.',
-    posterUrl: 'https://placehold.co/300x450?text=Inception',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg',
     isFavorite: false,
   },
   {
@@ -44,7 +44,7 @@ export const films: Film[] =[
     duration: 142,
     description:
       'Banker Andy Dufresne is convicted of murdering his wife and her lover. Finding himself in a prison called Shawshank, he faces the cruelty and lawlessness that reign on both sides of the bars.',
-    posterUrl: 'https://placehold.co/300x450?text=Shawshank',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg',
     isFavorite: false,
   },
   {
@@ -56,7 +56,7 @@ export const films: Film[] =[
     duration: 152,
     description:
       "Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, he seeks to rid Gotham's streets of crime.",
-    posterUrl: 'https://placehold.co/300x450?text=Dark+Knight',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/The_Dark_Knight_%282008_film%29.jpg/250px-The_Dark_Knight_%282008_film%29.jpg',
     isFavorite: false,
   },
   {
@@ -68,7 +68,7 @@ export const films: Film[] =[
     duration: 142,
     description:
       'A simple-minded man from Alabama named Forrest Gump inadvertently finds himself at the center of key events in American history during the second half of the 20th century.',
-    posterUrl: 'https://placehold.co/300x450?text=Forrest+Gump',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg',
     isFavorite: false,
   },
   {
@@ -80,7 +80,7 @@ export const films: Film[] =[
     duration: 136,
     description:
       'Hacker Neo discovers that the reality he lives in is merely a simulation created by machines. He must make a choice that will change the fate of humanity.',
-    posterUrl: 'https://placehold.co/300x450?text=Matrix',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/db/The_Matrix.png/250px-The_Matrix.png',
     isFavorite: false,
   },
   {
@@ -92,7 +92,7 @@ export const films: Film[] =[
     duration: 139,
     description:
       'An insomniac office worker and a charismatic soap salesman form an underground fight club that quickly evolves into something much greater.',
-    posterUrl: 'https://placehold.co/300x450?text=Fight+Club',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg',
     isFavorite: false,
   },
   {
@@ -104,7 +104,7 @@ export const films: Film[] =[
     duration: 201,
     description:
       'The final battle for Middle-earth begins. Frodo and Sam approach Mount Doom, while Aragorn must embrace his destiny and lead the armies of the free peoples into battle.',
-    posterUrl: 'https://placehold.co/300x450?text=LOTR+ROTK',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/4/48/Lord_Rings_Return_King.jpg',
     isFavorite: false,
   },
   {
@@ -116,7 +116,7 @@ export const films: Film[] =[
     duration: 195,
     description:
       'The story of German industrialist Oskar Schindler, who saved more than a thousand Polish Jews during the Holocaust by employing them in his factories.',
-    posterUrl: 'https://placehold.co/300x450?text=Schindlers+List',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg',
     isFavorite: false,
   },
   {
@@ -128,7 +128,7 @@ export const films: Film[] =[
     duration: 154,
     description:
       "Several intertwining stories from the Los Angeles criminal underworld: two hitmen, a gangster's wife, a boxer, and a pair of diner robbers.",
-    posterUrl: 'https://placehold.co/300x450?text=Pulp+Fiction',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Pulp_Fiction_%281994%29_poster.jpg/250px-Pulp_Fiction_%281994%29_poster.jpg',
     isFavorite: false,
   },
   {
@@ -140,7 +140,7 @@ export const films: Film[] =[
     duration: 189,
     description:
       'A death row corrections officer at a Louisiana penitentiary discovers that one of the inmates possesses a supernatural gift of healing.',
-    posterUrl: 'https://placehold.co/300x450?text=Green+Mile',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/The_Green_Mile_%28movie_poster%29.jpg/250px-The_Green_Mile_%28movie_poster%29.jpg',
     isFavorite: false,
   },
   {
@@ -152,7 +152,7 @@ export const films: Film[] =[
     duration: 155,
     description:
       'Roman general Maximus is betrayed by the emperor and sold into slavery. Becoming a gladiator, he fights in the Colosseum arena to avenge his family.',
-    posterUrl: 'https://placehold.co/300x450?text=Gladiator',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Gladiator_%282000_film_poster%29.png/250px-Gladiator_%282000_film_poster%29.png',
     isFavorite: false,
   },
 ];

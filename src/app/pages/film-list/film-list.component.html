@@ -1,11 +1,21 @@
-<div>
-  <input
-    appAutofocus
-    type="text"
-    placeholder="Search..."
-    (input)="search.set($any($event.target).value)"
-  >
-</div>
+<div class="container">
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Browse collection</p>
+      <h1>Movies, ratings, and favorites in one place</h1>
+    </div>
+
+    <label class="search">
+      <span>Search</span>
+      <input
+        appAutofocus
+        type="text"
+        placeholder="Search movies..."
+        (input)="search.set($any($event.target).value)"
+      >
+    </label>
+  </section>
+
 <div class="film-list">
   @for (film of filteredFilms(); track film.id) {
     <app-film-card
@@ -16,5 +26,6 @@
 </div>
 
 @if (filteredFilms().length === 0) {
-  <p>Nothing Found</p>
+  <p class="empty">Nothing found</p>
 }
+</div>
