@@ -1,2 +1,16 @@
-<p>film-card works!</p>
-<h2>{{film()?.title}}</h2>
+
+<h2>{{film().title}}</h2>
+<p>{{film().year}}</p>
+<p>{{film().genre}}</p>
+<p>{{film().rating}}</p>
+<button (click)="onFavoriteClick(); $event.stopPropagation()">
+  @if (film().isFavorite) {
+    ❤️
+  } @else {
+    🤍
+  }
+</button>
+
+<div (click)="goToDetails()">
+  ...
+</div>

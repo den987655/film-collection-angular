@@ -1,1 +1,11 @@
 <p>breadcrumbs works!</p>
+
+@if (url() === '/') {
+  <span>Home</span>
+}
+@if (url().startsWith('/film')) {
+  <a routerLink="/">Home</a> > <span>Film</span>
+}
+@if (url() === 'about') {
+  <span>About</span>
+}

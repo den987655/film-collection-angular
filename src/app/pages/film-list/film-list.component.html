@@ -1,4 +1,20 @@
-<p>film-list works!</p>
-@for (film of films(); track film.id) {
-  <app-film-card [film]="film"></app-film-card>
+<div>
+  <input
+    appAutofocus
+    type="text"
+    placeholder="Search..."
+    (input)="search.set($any($event.target).value)"
+  >
+</div>
+<div class="film-list">
+  @for (film of filteredFilms(); track film.id) {
+    <app-film-card
+      [film]="film"
+      (favoriteClicked)="onToggleFavorite($event)"
+    ></app-film-card>
+  }
+</div>
+
+@if (filteredFilms().length === 0) {
+  <p>Nothing Found</p>
 }
